@@ -1,0 +1,136 @@
+@import "../../assets/styles/theme.css";
+    
+.header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: var(--light_blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    
+.logo {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    background: url(../../assets/images/logo.svg)
+    no-repeat center;
+    background-size: cover;
+}
+
+.page_name {
+    position: relative;
+    color: var(--white);
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    margin-right: 40px;
+    gap: 10px;
+}
+
+.ip_name {
+    position: relative;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    left: 10px;
+}
+
+.time {
+    position: relative;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    left: 10px;
+    width: 280px;
+}
+
+.icon_search {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    background: url(../../assets/images/seach_white.svg)
+    no-repeat center;
+    background-size: cover;
+}
+
+.icon_monitor {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    background: url(../../assets/images/monitor_white.png)
+    no-repeat center;
+    background-size: cover;
+}
+
+.icon_question {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    background: url(../../assets/images/question.png)
+    no-repeat center;
+    background-size: cover;
+}
+
+.icon_time {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    background: url(../../assets/images/hour.svg)
+    no-repeat center;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.icon_human {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    background: url(../../assets/images/login.png)
+    no-repeat center;
+    background-size: cover;
+}
+
+.icon_exit {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    background: url(../../assets/images/exit.png)
+    no-repeat center;
+    background-size: cover;
+}
+
+.vertical_bar {
+    width: 1px; 
+    height: 30px; 
+    background-color: var(--white); 
+    position: relative;
+    left: 20px;
+  }

@@ -1,0 +1,39 @@
+@import "../../assets/styles/theme.css";
+    
+.empty_page {
+    position: absolute;
+    background-color: var(--white);
+    top: 0;
+    height: 94%;
+    width: 80%;
+    margin-left: 300px;
+    margin-top: 50px;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideToLeft {
+    from {
+      margin-left: 300px;
+    }
+    to {
+      margin-left: 70px;
+    }
+  }
+  
+  @keyframes slideToRight {
+    from {
+      margin-left: 70px;
+    }
+    to {
+      margin-left: 300px;
+    }
+  }
+
+  .empty_page.slide_in {
+    animation: slideToLeft 0.5s forwards;
+  }
+
+  .empty_page.slide_out {
+    animation: slideToRight 0.5s forwards;
+  }
+  

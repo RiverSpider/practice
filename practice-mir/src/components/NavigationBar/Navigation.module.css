@@ -1,0 +1,106 @@
+@import "../../assets/styles/theme.css";
+    
+.header {
+    position: relative;
+    width: 320px;
+    height: 90vh;
+    background-color: var(--light_gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.icon_main {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.icon_container:hover {
+    background-color: var(--dark_gray);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+}
+
+.nav_name {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.nav_name_sub {
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 22px;
+    margin-top: 13px;
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+}
+
+.icon_container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 300px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+    transition: background-color 0.001s;
+    transition-delay: 0.2s;
+}
+
+.icon_sub {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    background-size: cover;
+    margin-bottom: 5px;
+    margin-left: 22px;
+    margin-top: 12px;
+}
+
+.line{
+    width: 5px; 
+    height: 50px; 
+    background-color: var(--gray); 
+    position: relative;
+}
+
+.line_active_blue {
+    width: 5px; 
+    height: 50px; 
+    background-color: var(--light_blue); 
+    position: relative;
+}
+
+.line_active_gray  {
+    width: 5px; 
+    height: 50px; 
+    background-color: var(--light_gray); 
+    position: relative;
+}

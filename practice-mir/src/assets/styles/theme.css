@@ -1,0 +1,20 @@
+:root {
+    --light_blue: rgb(0, 119, 255);
+    --white: white;
+    --light_gray: rgb(227, 227, 227);
+    --dark_gray: rgb(196, 196, 196);
+    --gray: gray;
+    --background-color: white;
+    --text-color: black;
+  }
+
+  [data-theme="dark"] {
+    --light_blue: rgb(0, 102, 27);
+    --white: white;
+    --light_gray: #383838;
+    --dark_gray: rgb(82, 82, 82);
+    --gray: gray;
+    --background-color: #141414;
+    --text-color: white;
+  }
+  

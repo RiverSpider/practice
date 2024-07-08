@@ -1,0 +1,56 @@
+@import "../../../../assets/styles/theme.css";
+    
+.page {
+    position: relative;
+    background-color: var(--background-color);
+    top: 0;
+    height: 90%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.settings_container{
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.name{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.select_style{
+    position: relative;
+    width: 200px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.save{
+    position: relative;
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    margin-top: 100px;
+    margin-left: 20px;
+    background-color: var(--light_blue);
+    color: var(--white);
+    border-radius: 10px;
+    cursor: pointer; 
+}
